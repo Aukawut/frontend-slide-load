@@ -6,7 +6,7 @@ import "./Home.css";
 const Home: React.FC = () => {
   const [pages] = useState<PageConfig[]>(initialPages);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [intervalSeconds, setIntervalSeconds] = useState(10); // default 10s
+  const [intervalSeconds, setIntervalSeconds] = useState(60); // default 10s
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const iframeContainerRef = React.useRef<HTMLDivElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
