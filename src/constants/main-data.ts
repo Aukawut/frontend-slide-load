@@ -32,6 +32,11 @@ export const initialPages: PageConfig[] = [
     name: "WMS",
     url: "http://10.144.1.91/psth/pegasus/dashboard.php",
   },
+  {
+    id : "7",
+    name : "Zabbix Switch Status",
+    url : "http://10.144.1.90:3000/d/07U4Xzg7z/zabbix-switch-status?orgId=1&from=now-12h&to=now&timezone=browser&var-Group=$__all&var-Hosts=$__all&refresh=1m"
+  }
 
    
 ];
