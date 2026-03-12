@@ -30,7 +30,7 @@ export const initialPages: PageConfig[] = [
    {
     id: "6",
     name: "WMS",
-    url: "http://10.144.1.91/psth/pegasus/dashboard.php",
+    url: "http://10.144.1.91/psth/pegasus/dashboard_new.php",
   },
   {
     id : "7",
